@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <input type="text" required placeholder="Nombre" maxlength="35">
+        <!-- input es para crear cajitas de formulario, y tiene etiquetas como 
+    required que obliga al usuario a escribir datos en ese campo, placeholder es para hacer que el texto que este en la caja como nombre, sea transparente
+y hace que el usuario al darle click se quite, cuando el usuario borra, se vuelve a poner. maxlength es para definir el tama;o del texto que ira en el campo.  -->
+
+        <input type="email" required placeholder="Correo" maxlength="15"> <br><br>
+        <textarea name="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <br>
+        <select name="Pais" id="seleccion_pais">
+            <!--  Select se usa para una seleccion y en name se pone lo que se va a mostrar en la seleccion  -->
+            <option value="Alemania">Alemania</option> <!-- Estas son las opciones que apareceran en la seleccion-->
+            <option value="Korea">Korea</option>
+            <!-- lo que esta en blanco es lo que se mostrara en pantalla y el value es lo que envia por dentro el codigo. -->
+        </select>
+        <input type="radio" name="genero" id="hombre" value="hombre"><label for="hombre">Hombre</label>
+        <!--  el name se usa por si necesotamos todos los datos de unos valores en especificos
+podriamos mandar a llamar todos los datos que se llamen genero, value es el la informacion que se enviara, y id se usa para identificar toda la etiqueta-->
+        <input type="radio" name="genero" id="mujer" value="mujer"><label for="mujer">mujer</label>
+        <!-- la etiqueta label se usa para que el usuario donde seleccione cerca de la palabra 
+acepte el select--> <br> <br>
+             <input type="checkbox" name="terminos" id="terminos"> Terminos y Condiciones. <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+
+</html>
