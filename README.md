@@ -12,7 +12,7 @@
  Desde cero hasta lograr hacer una pagina web sencilla, y hacer proyectos profesionales.
 ---
 
-| Tiempo  |  HTML | Desde  |  JS |   
+| Tiempo  |  HTML | CSS  |  JS |   
 |---|---|---|---|
 | Tiempo de aprendizaje  |  3 horas |  4 horasw | 5 horas  |   
 | Proyecto |  6 horas |  7 horas |  8 horas |   
