@@ -8,12 +8,11 @@
 - [ ]  HTML,
 - [ ]  CSS,
 - [ ]  JS, 
-- [ ]  desde 
-- [ ]  cero hasta
-lograr hacer una pagina web sencilla, y hacer proyectos profesionales.
+
+ Desde cero hasta lograr hacer una pagina web sencilla, y hacer proyectos profesionales.
 ---
 
-| Cero Hasta  |  HTML | Desde  |  JS |   
+| Tiempo  |  HTML | Desde  |  JS |   
 |---|---|---|---|
 | Tiempo de aprendizaje  |  3 horas |  4 horasw | 5 horas  |   
 | Proyecto |  6 horas |  7 horas |  8 horas |   
@@ -27,10 +26,9 @@ lograr hacer una pagina web sencilla, y hacer proyectos profesionales.
 > ya sea personal o si algun apersona necesita una ayuda:
 
 
-> podra verlo y consultarlo  
-> en mi repositorio: 
-  - aqui estare colgando todas  
-  - mis practicas en el mundo del Desarrollo web
+> podra verlo y consultarlo en mi repositorio: 
+  - Aqui estare colgando todas mis practicas en el mundo del 
+    Desarrollo web
 
 
 ---
