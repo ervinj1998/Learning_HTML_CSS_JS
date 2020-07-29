@@ -1,7 +1,42 @@
-Aprendizaje HTML,CSS,JS
+# Aprendizaje HTML,CSS,JS for Beginners
 
-En este repositorio recorro parte por parte, todo mi camino para el conocimineto de HTML,CSS,JS, desde cero hasta
+
+
+### En este Udemy Learning repositorio :rocket: :
+---
+  recorro parte por parte, todo mi camino para el conocimineto de:
+- [ ]  HTML,
+- [ ]  CSS,
+- [ ]  JS, 
+- [ ]  desde 
+- [ ]  cero hasta
 lograr hacer una pagina web sencilla, y hacer proyectos profesionales.
+---
 
-quedara guardado como una ayuda en el futuro, ya sea personal o si algun apersona necesita una ayuda, podra verlo y consultarlo
-en mi repositorio, aqui estare colgando todas mis practicas en el mundo del Desarrollo web.
+| Cero Hasta  |  HTML | Desde  |  JS |   
+|---|---|---|---|---|
+| Tiempo de aprendizaje  |  3 horas |  4 horasw | 5 horas  |   
+| Proyecto |  6 horas |  7 horas |  8 horas |   
+|   |   |   |   |   |
+
+
+
+
+
+### Quedara guardado como una ayuda en el futuro: 
+> ya sea personal o si algun apersona necesita una ayuda:
+
+
+> podra verlo y consultarlo  
+> en mi repositorio: 
+  - aqui estare colgando todas  
+  - mis practicas en el mundo del Desarrollo web
+
+
+---
+
+github markdown [cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
+Linux [administration](https://devconnected.com/category/linux-administration/)
+
+git@github.com:Halfawaydotcom/Conocimiento_Diseno_Web.git
