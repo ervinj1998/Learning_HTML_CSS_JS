@@ -19,9 +19,6 @@
 |   |   |   |   |   |
 
 
-
-
-
 ### Quedara guardado como una ayuda en el futuro: 
 > ya sea personal o si algun apersona necesita una ayuda:
 
