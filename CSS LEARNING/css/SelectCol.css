@@ -1,0 +1,19 @@
+/*
+*{   Este es un selector global, osea que todo los atributos que pongamos dentro, se editaran en todo el doc html aunque tentgamos 
+    un selector en especifico 
+    color: blue;
+    
+}
+*/
+
+div{ /* este selector dice que todo lo que este dentro de los div, se haran los cambios
+    seguun los atributos que tenga dentro de este selector*/
+    color:red;
+}
+div p a{ /* Este  selector especifica en capas, que parte estraremos modificando del codigo html*/
+    color: seagreen;
+}
+
+h1, h2, h3{ /*Con este selector seleccionamos varias etiquetas que queremos modificar y lo hacemos con comas  */
+    color: coral;
+}
