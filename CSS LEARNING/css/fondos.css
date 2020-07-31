@@ -1,0 +1,11 @@
+/* la modificacion que le damos es que el fondo que abarca el body
+    se de color qu eespecifiquemos, esto lo podemos hacer con di
+    o de diferentes maneras
+body{
+    background-color: blueviolet;
+}
+*/
+div{
+    height: 800px;
+    background-color: blue;
+}
