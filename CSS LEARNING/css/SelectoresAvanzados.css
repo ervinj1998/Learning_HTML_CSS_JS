@@ -1,0 +1,20 @@
+p{   /* este selector hace referencia a todos los parrafos del documento html.*/
+    font-size: 30px;
+    color: red;
+}
+
+div > p {  /* Aqui hacemos referencias que solo queriamos modificar
+    los parrafos que esten directamente dentro de un div, , si en un dado caso hay 
+    parrafos que estan dentro de una etiqueta, y esa etiqueta
+    esta dentro de un div, esta modificacion no se ejecuta, ya que, va dirigida a los p
+    parrafos que estan en desendencia directa de un div.*/
+    color: black;
+}
+
+input[type]{ /*En este selector seleccionamos lo sinputs del archivo html 
+    y le decimos que los imputs sean un tamano, osea font size de 50px*/
+    font-size: 50px;
+    color: blue;
+    
+    
+}
