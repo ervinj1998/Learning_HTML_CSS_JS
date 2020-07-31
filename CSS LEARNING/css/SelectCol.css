@@ -17,3 +17,12 @@ div p a{ /* Este  selector especifica en capas, que parte estraremos modificando
 h1, h2, h3{ /*Con este selector seleccionamos varias etiquetas que queremos modificar y lo hacemos con comas  */
     color: coral;
 }
+
+.tamano{ /*Este selector con punto hacemos referencia a una clase en el codigo html, y todas las clases que tengan ese
+             nombre, se modificaran aunque este dentro de otra etiqueta como en este caso que esta dentro de un h4
+             , pero igual podemos hacer referencia
+             h4. tamano */
+    font-size: 40px;
+    color: rebeccapurple;
+
+}
