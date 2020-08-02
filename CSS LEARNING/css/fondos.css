@@ -5,7 +5,12 @@ body{
     background-color: blueviolet;
 }
 */
-div{
-    height: 800px;
-    background-color: blue;
+
+.fondocolor{
+    height: 200px;
+    background: url('alavioncomprimed.jpg'); /*Llamamos la imagen por medio de un ulrl*/
+    background-color: black; /*Si la imagen no aparece o no carga, o no aparece por completa, aparecera un fondo color negro*/
+    background-size: cover; /*Hacemos que la imagen alcanze completamente el ancho de la pagina*/
+    background-repeat: no-repeat; /*Le decimos que no se repita, ya que si es una imagen pequeña o la hacemos pequeña puede aparecer reptida*/
+    background-position: center; /*Centramos la imagen que esta de fondo*/
 }
