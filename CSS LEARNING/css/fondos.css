@@ -39,12 +39,19 @@ a:hover {
 article {
     text-align: center;
     /*Le decimos el margen del texto si quiere derecha, izquierda, centroo, justificado*/
-    font-size: 16px;
-    /*Le damos tamaño a la letra*/
+    font-size: 2em;
+    /*Le damos tamaño a la letra y usamos em por que su medida es relativa al tamaño
+     de letras que tenga el contenedor donde este para sacar la medida del em, se divide los pixeles que se quiere poner y lo 
+    dividimos entre el tamaño del texto que tiene el body en este caso es 16 si tenemos un elemento en
+    un contenedor y queremos que la medida sea tomada del body usamos REM*/
     font-family: Arial, Helvetica, sans-serif;
     /*Le decimos el tipo de letra, arial o lo que queramos*/
     font-style: italic;
     /*Podemos modificar el estilo del texto*/
+    letter-spacing: 10px;
+    /*Espaciado de las letras*/
+    line-height: 50px;
+    /*Espaciado entre las lineas.*/
 }
 
 h1 {
