@@ -6,11 +6,48 @@ body{
 }
 */
 
-.fondocolor{
+.fondocolor {
     height: 200px;
-    background: url('alavioncomprimed.jpg'); /*Llamamos la imagen por medio de un ulrl*/
-    background-color: black; /*Si la imagen no aparece o no carga, o no aparece por completa, aparecera un fondo color negro*/
-    background-size: cover; /*Hacemos que la imagen alcanze completamente el ancho de la pagina*/
-    background-repeat: no-repeat; /*Le decimos que no se repita, ya que si es una imagen pequeña o la hacemos pequeña puede aparecer reptida*/
-    background-position: center; /*Centramos la imagen que esta de fondo*/
+    background: url('alavioncomprimed.jpg');
+    /*Llamamos la imagen por medio de un ulrl*/
+    background-color: black;
+    /*Si la imagen no aparece o no carga, o no aparece por completa, aparecera un fondo color negro*/
+    background-size: cover;
+    /*Hacemos que la imagen alcanze completamente el ancho de la pagina*/
+    background-repeat: no-repeat;
+    /*Le decimos que no se repita, ya que si es una imagen pequeña o la hacemos pequeña puede aparecer reptida*/
+    background-position: center;
+    /*Centramos la imagen que esta de fondo*/
+}
+
+a {
+    text-transform: uppercase;
+    /*Podemos decirle si seratodo mayuscula o minuscula etc*/
+    font-size: 50px;
+}
+
+a:hover {
+    /*Este selector hace que cuando el puntero pasa sobre las letras, hace un efecto*/
+    text-decoration: none;
+    /*Le decimos que el texo tenga un subrayado o una decoracion, tachado etc .*/
+    background-color: black;
+    /*Hace que el fondo sea negro cuando el puntero pasa sobre el texto*/
+    color: white;
+    /*El texto de la fuenta cuando pasa el cursos, se vuelve blanco*/
+}
+
+article {
+    text-align: center;
+    /*Le decimos el margen del texto si quiere derecha, izquierda, centroo, justificado*/
+    font-size: 16px;
+    /*Le damos tamaño a la letra*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*Le decimos el tipo de letra, arial o lo que queramos*/
+    font-style: italic;
+    /*Podemos modificar el estilo del texto*/
+}
+
+h1 {
+    text-align: center;
+    color: teal;
 }
