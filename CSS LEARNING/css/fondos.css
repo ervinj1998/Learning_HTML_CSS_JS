@@ -5,6 +5,15 @@ body{
     background-color: blueviolet;
 }
 */
+body {
+    font-size: 16px;
+    /*Le ponemos el tamaño del body ya que podemos usarlo en algun momento si usamos las medidas
+    em si es lo mas cercano, o rem ya que el rem toma la medida del body.*/
+    margin: 0;
+    /*le estamos diciendo que todos lsoobjetos tengan un margeenn y pading de 0 para que todos los elementos al agregarlos salgan
+    pegados al borde la pagina*/
+    padding: 0;
+}
 
 .fondocolor {
     height: 200px;
@@ -56,5 +65,22 @@ article {
 
 h1 {
     text-align: center;
-    color: teal;
+    color: blue;
+    /*Hay muchos tipos de colores, este color solo cambia el color del elemento, si queremos el fondo del elementos es
+   backgound*/
+}
+
+p {
+    background: tomato;
+}
+
+.caja {
+    margin: 2em;
+    /*Le decimos el margen que estara de los bordes de la pagina. el margin es la distancia de lo que esta afuera del 
+    elemento*/
+    padding: 0.50rem 1rem;
+    /*El padding es como un amrgen pero es la distincia que se pondran los elementos que tenga adentro en
+    este caso lo que tenga dentro la caja*/
+    width: 15rem;
+    background: yellowgreen;
 }
