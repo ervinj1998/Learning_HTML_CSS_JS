@@ -7,7 +7,8 @@ div {
     /*Creamos este div para modificar el tamaño de la caja y asi modificar el fondo tambien*/
     width: 1000px;
     overflow: hidden;
-    background: black
+    background: black;
+    z-index: 1;
 }
 
 .cajaarticulo img {
@@ -18,4 +19,16 @@ div {
 p {
     color: blanchedalmond;
     margin: 0%;
+}
+
+.caja {
+    width: 10rem;
+    height: 10rem;
+    background: blueviolet;
+    z-index: 2;
+    /*Declaramos que elemento estara detras o adelante de otro*/
+    position: relative;
+    /*Con esto hacemos que la caja se pueda mover*/
+    bottom: 5rem;
+    /*Le decimos que mepuje la caja de abajo hacia arriba 80 pixeles */
 }
