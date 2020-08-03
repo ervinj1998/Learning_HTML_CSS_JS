@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.btn{
+    
+    display: inline-block; /*Le decimos que tenga propiedades de bloque para que nos deje ajustar margenes 
+    y tamaño.*/
+    background:green;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding: 0 0.3125rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+    
+}
+div{
+    text-align: center;
+    /*Creamos este selector para poder 
+    centrar el elemento que esta dentro, en medio
+    de la pagina, solo asi se podria centrar el elemento que esta
+    dentro de un div*/
+}

@@ -75,9 +75,10 @@ p {
 }
 
 .caja {
-    margin: 2em;
-    /*Le decimos el margen que estara de los bordes de la pagina. el margin es la distancia de lo que esta afuera del 
-    elemento*/
+    margin: auto;
+    /**Centramos todo el div con el margin auto, el margen es la distancia que estara de los otrose lementos*/
+    border: 0.125rem solid;
+    /*Le decimos el tamaño del borde que tendra el div y al final le poonemos el tipo de borde*/
     padding: 0.50rem 1rem;
     /*El padding es como un amrgen pero es la distincia que se pondran los elementos que tenga adentro en
     este caso lo que tenga dentro la caja*/
