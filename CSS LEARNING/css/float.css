@@ -1,0 +1,21 @@
+body {
+    /*Creamos este body y le damos margen para que no tenga ningun borde blanco en la pagina*/
+    margin: 0;
+}
+
+div {
+    /*Creamos este div para modificar el tamaño de la caja y asi modificar el fondo tambien*/
+    width: 1000px;
+    overflow: hidden;
+    background: black
+}
+
+.cajaarticulo img {
+    /*Le decimos que modicaremos la posicion de la imagen que esta dentro de la clase .cajaartculo*/
+    float: left;
+}
+
+p {
+    color: blanchedalmond;
+    margin: 0%;
+}
