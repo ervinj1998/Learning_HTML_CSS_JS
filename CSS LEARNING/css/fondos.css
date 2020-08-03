@@ -33,6 +33,7 @@ a {
     text-transform: uppercase;
     /*Podemos decirle si seratodo mayuscula o minuscula etc*/
     font-size: 50px;
+    display: block; /*Le decimos que el elemento tenga propiedades de un elemento bloque*/
 }
 
 a:hover {
