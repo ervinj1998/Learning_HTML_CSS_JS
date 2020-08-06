@@ -1,5 +1,48 @@
-.div3{
-    color: blue;
-    background: brown;
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;     /*Con estas propiedades los contenedores seran estrictos con sus elementos hijos*/
+    box-sizing: border-box;
+    font-size: 30px;
+}
 
+body{
+    background: slategray;
+
+}
+.contuniversal { /*le damos estilo al contenedor contuniversal*/
+    width: 52.5rem;     
+    background: darkgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    
+    
+}
+.contuniversal ul{ /*le decimos que la lista tenga un padin de 20 pixel mas o menos*/
+    padding: 1.2rem;
+    display: inline-block;  /*Queremos que la lista de enlaces se comporte como bloques para darles mas estilos*/
+}
+
+.contuniversal li{
+    color: black;
+    float: left; /*Todos los elementos que sean li se acomodaran a la lado del otro*/
+    overflow: hidden;  /*Esto arreglara el error  que provoca float left.*/
+    padding: 2rem;  /*poner espacio entre las opciones del menu*/
+
+}
+.contuniversal ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.contuniversal ul li a:hover{
+    background:black;
+    color: white;
+    padding: 5px;
+
+}
+
+h3{
+    font-size: 2rem;
 }
