@@ -7,8 +7,6 @@
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-}
 .contenedor{
    background:blueviolet;
   height: 300px;
@@ -25,9 +23,7 @@
     top: 50px;
     left: 0px;
     
-=======
-body{
-    background: slategray;
+
 
 }
 .contuniversal { /*le damos estilo al contenedor contuniversal*/
@@ -64,5 +60,5 @@ body{
 
 h3{
     font-size: 2rem;
->>>>>>> a2dc75dfc6c230754a31c88c0c94785af7f5d619
+
 }
