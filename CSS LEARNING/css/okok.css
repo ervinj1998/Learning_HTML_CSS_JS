@@ -29,5 +29,5 @@
     text-align: center;
     position: relative;
     bottom: 40px;
-    z-index: 3;
+    z-index: 3; /*POSICIONANDO CAPAS */
 }
