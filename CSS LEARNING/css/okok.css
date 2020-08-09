@@ -1,0 +1,33 @@
+*{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.cajapadre{
+    position: relative;
+    background: blue;
+    height: 20%;
+    width: 50%;
+    z-index: 1;
+    text-align: center;
+    left: 30%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.cajahijo{
+    background: cornflowerblue;
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 50px;
+    z-index: 2;
+    overflow: hidden;
+}
+.h5{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    z-index: 3;
+}
