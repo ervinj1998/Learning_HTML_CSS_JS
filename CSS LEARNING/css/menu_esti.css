@@ -1,0 +1,28 @@
+body{
+    background-color: coral;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 250%;
+    margin: 0;
+}
+
+.menu{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 0;
+    list-style: none;
+    width: 30%;
+    position: relative;
+    left: 50%;
+}
+
+.menu li{
+    border-bottom: 2px solid rgba(255, 255, 255, .3);
+    
+}
+
+.menu a {
+    display: block;
+    margin: 10%;
+    text-decoration: none;
+    color:black;
+}
