@@ -1,7 +1,6 @@
 # Aprendizaje HTML,CSS,JS for Beginners
 
 
-
 ### En este Udemy Learning repositorio :rocket: :
 ---
   recorro parte por parte, todo mi camino para el conocimineto de:
