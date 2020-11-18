@@ -1,39 +1,36 @@
-/*
-Una contraseña se considera segura si se cumplen todas las condiciones siguientes:
+/*Una contraseña se considera segura si se cumplen todas las condiciones siguientes:
 
 Tiene al menos 6 caracteres y como máximo 20 caracteres.
 Contiene al menos una letra minúscula, al menos una letra mayúscula y al menos un dígito.
-No contiene tres caracteres repetidos seguidos (es decir, "... aaa ..." es débil,
-pero "... aa ... a ..." es fuerte, asumiendo que se cumplen otras condiciones).
-Dada una contraseña de cadena, devuelva el número mínimo de pasos necesarios para hacer que 
-la contraseña sea segura. si la contraseña ya es segura, devuelve 0.
+No contiene tres caracteres repetidos seguidos (es decir, "... aaa ..." es débil, pero "... aa ... a ..." es fuerte, asumiendo que se cumplen otras condiciones).
+Dada una contraseña de cadena, devuelva el número mínimo de pasos necesarios para hacer que la contraseña sea segura. si la contraseña ya es segura, devuelve 0.
 
 En un solo paso, puede:
 
 Inserte un carácter en la contraseña,
 Eliminar un carácter de la contraseña o
-Reemplace un carácter de la contraseña con otro carácter.
+Reemplazar un carácter de contraseña con otro carácter
+=================================================================================================================================
 */
-// var s  = prompt(s)
-// prompt(s) = []
-// var s = [1,3,3,7,"C",0,"d",3]
 
-var s = prompt(s)
+alert("Ingresa una contrase;a a revisar")
+var containResult = prompt(containResult) // Le pedimo al usuario que ingresa la password que quiere revisar
 
-var strongPasswordChecker = function (s, a = 6, b = 20, c = 3) {
-    const clusters = buildClusters(s, c);
-    for (let i = 0; i < s.length - b && clusters.minReplaceCount; i++) {
+var strongPasswordChecker = function (containResult, a = 6, b = 20, c = 3) { //inicio de funcion y se recibe el parametro como arreglo la variable s
+    const clusters = buildClusters(containResult, c);
+    for (let i = 0; i < containResult.length - b && clusters.minReplaceCount; i++) {
         deleteOne(clusters, c);
     }
-    const mustAddCount = !/[a-z]/.test(s) + !/[A-Z]/.test(s) + !/\d/.test(s);
-    return Math.max(0, s.length - b) + Math.max(a - s.length, mustAddCount, clusters.minReplaceCount);
+    const mustAddCount = !/[a-z]/.test(containResult) + !/[A-Z]/.test(containResult) + !/\d/.test(containResult);
+    return Math.max(0, containResult.length - b) + Math.max(a - containResult.length, mustAddCount, clusters.minReplaceCount);
 };
-function buildClusters(s, c) {
+
+function buildClusters(containResult, c) {
     const clusters = new Array(c).fill(0).map(cl => new Map());
     clusters.minReplaceCount = 0;
     let re = new RegExp(`(.)\\1{${c - 1},}`, 'g'),
         match;
-    while (match = re.exec(s)) {
+    while (match = re.exec(containResult)) {
         let len = match[0].length;
         clusters[len % c].set(len, (clusters[len % c].get(len) || 0) + 1);
         clusters.minReplaceCount += Math.floor(len / c);
@@ -54,7 +51,7 @@ function deleteOne(clusters, c) {
     }
     console.log(deleteOne());
 }
-if(strongPasswordChecker(s) ===1 )
+if (strongPasswordChecker(containResult) === 1)
     alert("Se necesita una cojntrase;a mas segura");
 
-console.log(strongPasswordChecker(s))
+console.log(strongPasswordChecker(containResult)) // se llamaa a la funcion strongPassword y a su parametro s para mostrar el resultado si es buena contrase;a o no.
